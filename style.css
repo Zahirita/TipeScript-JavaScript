@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Tribu {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.Tribu {
+    border: 2px solid #8b0df3; 
+    background-color: #ffe6e6; 
+}
+
+.Tribu_A {
+    border: 2px solid #333; /* Negro para Equipo */
+    background-color: #f0f0f0; /* Fondo suave para Equipo */
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #f06ae5; /* Rojo en el foco para Tribu */
+    box-shadow: 0 0 5px rgb(73, 4, 184);
+    outline: none;
+}
+
+.Tribu_B input[type="number"]:focus {
+    border-color: #333; /* Negro en el foco para Equipo */
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.5);
+}
+
+button {
+    background-color: #6d21fa; /* Rojo para Tribu */
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%; /* Botón ocupa todo el ancho */
+}
+
+button:hover {
+    background-color: #55099c; /* Rojo oscuro para hover */
+    transform: translateY(-2px);
+}
+
+.Tribu_A button {
+    background-color: #333; /* Negro para Equipo */
+}
+
+.Tribu_B button:hover {
+    background-color: #555; /* Gris oscuro para hover */
+}
